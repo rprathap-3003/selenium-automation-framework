@@ -1,0 +1,40 @@
+# Compiled class files
+*.class
+
+# Maven build output
+target/
+
+# Generated reports
+reports/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+.vscode/
+nbproject/
+nbactions.xml
+nb-configuration.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Log files
+*.log
+
+# Driver binaries
+*.exe
+!mvnw.cmd
+
+# Test output
+test-output/
+surefire-reports/
+screenshots/

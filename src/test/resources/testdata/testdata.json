@@ -1,0 +1,28 @@
+{
+  "searchData": {
+    "searchTerm": "Selenium WebDriver",
+    "expectedTitleFragment": "Selenium WebDriver"
+  },
+  "loginCredentials": [
+    {
+      "username": "testuser1",
+      "password": "TestPass123!",
+      "expectedResult": "success"
+    },
+    {
+      "username": "testuser2",
+      "password": "TestPass456!",
+      "expectedResult": "success"
+    },
+    {
+      "username": "invaliduser",
+      "password": "wrongpassword",
+      "expectedResult": "failure"
+    }
+  ],
+  "environments": {
+    "qa": "https://qa.example.com",
+    "staging": "https://staging.example.com",
+    "production": "https://www.example.com"
+  }
+}
